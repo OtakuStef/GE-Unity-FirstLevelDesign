@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     public void PlayGame()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         SceneManager.LoadScene(1);
     }
 
